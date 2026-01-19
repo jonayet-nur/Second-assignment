@@ -193,7 +193,63 @@ nav h2{
     font-weight: normal;
     
  }
+
+ /* layout section */
  
+ .layout{
+    padding-top: 100px;
+     background-color: #412567; 
+ }
+ .h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+ }
+ .layout-container>* {
+    background-color: #19073274;
+    border-radius: 20px;
+    padding: 30px;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    /* border: 1px solid #a97527; */
+ }
+ .audio{
+    grid-area: audio;
+ }
+
+ .device{
+    grid-area: phone;
+ }
+ .location{
+    grid-area: location;
+ }
+ .interview{
+    grid-area: interview;
+ }
+ .resource{
+    grid-area: resource;
+ }
+ .layout-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+    "audio phone phone" 
+    "audio  location location"
+    "interview interview resource"
+    
+ }
+.layout-container h2{
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+.layout-container p{
+    color: #ffffff97;
+    margin-top: 12px;
+}
 
  /* mobile responsive */
  @media screen  and (max-width:576px){
@@ -220,4 +276,16 @@ nav h2{
         /* background-position: center; */
         
     }
+     .layout-container{
+            
+            grid-template-areas: 
+            "audio"
+            "phone"
+            "location"
+            "interview"
+            "resource"
+            
+
+        }
+
  }
