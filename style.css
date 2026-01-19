@@ -115,6 +115,7 @@ nav h2{
 .btn-2{
     color: #00FF88;
     border: 2px solid #15e081;
+    font-size: 16px;
     padding: 10px 25px;
     border-radius: 20px;
     background-color: #1A0B2E;
@@ -193,7 +194,8 @@ nav h2{
  .layout{
     padding-bottom: 50px; /*ata lagle rakbo*/
     padding-top: 100px;
-     background-color: #412567; 
+    background-color: #230E3D;
+     /* background-color: #412567;  */
  }
  .h2{
     text-align: center;
@@ -248,11 +250,14 @@ nav h2{
 
 /*video card section */
 iframe{
-    max-width: fit-content;
-    border-radius: 20px;
+     /* max-width: fit-content; */
+    /* border-radius: 15px;  */
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
 }
  #Main{
-    background-color: #1A0B2E;
+     background-color: #1A0B2E; 
+   
     padding-top: 80px;
  }
  #Main h2{
@@ -270,9 +275,10 @@ iframe{
     grid-template-columns: repeat(3,1fr);
 }
 .card{
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #412567;
-    max-width: 400px;
+    width: 100%;
+    max-width: 374px;
     border-radius: 15px;
     transition: transform 0.3s ease-in-out;
 }
@@ -289,7 +295,17 @@ iframe{
 .video-p{
     color: #ffffff94;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 16px;
+}
+.video-content{
+    padding: 20px;
+}
+.min{
+    color: #0ed87a;
+    font-weight: 600;
+    font-size: 17px;
+    
 }
 
 /* Host Section */
@@ -340,11 +356,13 @@ section{
    
 }
 .social-icon li img{
+    width: 30px;
+    height: 35px;
     cursor: pointer;
     align-items: center;
     /* justify-items: center; */
     border-radius: 20px;
-    padding: 8px 6px;
+    padding: 8px 8px;
     border: 1px solid #e4b038;
 }
 
@@ -406,6 +424,12 @@ section{
 
         .card-container{
             grid-template-columns: repeat(1,1fr);
+            
+        }
+        .card{
+            
+            /* min-width: 350px; */
+            margin: 0 auto;
         }
 
         .host-container{
@@ -439,4 +463,10 @@ section{
         .social-icon{
             justify-content: center;
         }
+         /* .card.iframe{
+            width: 100%;
+            
+        } */
  }
+
+ 
