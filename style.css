@@ -27,8 +27,10 @@ body{
 
 
 .text-h{
-   
-    color: #FB09B4;
+   background: linear-gradient(25deg,#F7E93F 0% ,#FB09B4 51%,#9100F8 100%);
+    /* color: #FB09B4; */
+    -webkit-background-clip: text;
+    color: transparent;
 }
 header{
    background-color: #1A0B2E;
@@ -103,8 +105,8 @@ nav h2{
 
 .banner-content h1{
     margin-top: 15px;
-    font-size: 60px;
-    font-weight: 700px;
+    font-size: 55px;
+    font-weight: 600px;
     color: #FFFFFF;
 }
 .banner-content p{
@@ -312,6 +314,7 @@ iframe{
 section{
     background-color: #1A0B2E;
     padding-top: 80px;
+      padding-bottom: 90px;    
 }
 .heading{
     font-size: 32px;
@@ -364,6 +367,31 @@ section{
     border-radius: 20px;
     padding: 8px 8px;
     border: 1px solid #e4b038;
+}
+/*footer section*/
+.foot{
+    
+    padding: 40px;
+    background: url(Images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size:auto ; */
+    text-align: center;
+}
+.footer-h{
+    color: #FFFFFF;
+    font-size:30px ;
+}
+.footer-a a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-right: 10px;
+}
+footer p{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #ffffffa8;
 }
 
 
@@ -467,6 +495,18 @@ section{
             width: 100%;
             
         } */
+        footer{
+            background-size: contain;
+        }
+       .foot{
+        
+        padding: 30px 0px;
+        
+        /* background-position: center; */
+        background-size:auto ;
+
+        
+       }
  }
 
  
