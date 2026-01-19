@@ -197,6 +197,7 @@ nav h2{
  /* layout section */
  
  .layout{
+    padding-bottom: 50px; /*ata lagle rakbo*/
     padding-top: 100px;
      background-color: #412567; 
  }
@@ -251,6 +252,45 @@ nav h2{
     margin-top: 12px;
 }
 
+/*video card section */
+ #Main{
+    background-color: #1A0B2E;
+    padding-top: 80px;
+ }
+ #Main h2{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+.card-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    padding: 20px;
+    background-color: #412567;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.video-h{
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.video-p{
+    color: #ffffff94;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
  /* mobile responsive */
  @media screen  and (max-width:576px){
     .menu,.btn-primary{
@@ -286,6 +326,10 @@ nav h2{
             "resource"
             
 
+        }
+
+        .card-container{
+            grid-template-columns: repeat(1,1fr);
         }
 
  }
