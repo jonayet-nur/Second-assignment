@@ -254,6 +254,7 @@ nav h2{
 
 /*video card section */
 iframe{
+    max-width: fit-content;
     border-radius: 20px;
 }
  #Main{
@@ -383,7 +384,5 @@ section{
         .name{
             text-align: center;
         }
-        .card-container{
-            min-width: 300px;
-        }
+        
  }
