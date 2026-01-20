@@ -79,7 +79,7 @@ nav h2{
     
 }
 .banner-img{
-    
+
     background: url(Images/hero-circle.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -375,8 +375,7 @@ section{
     height: 35px;
     cursor: pointer;
     align-items: center;
-    /* justify-items: center; */
-    border-radius: 20px;
+    border-radius:20px;
     padding: 8px 8px;
     border: 1px solid #e4b038;
 }
