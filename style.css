@@ -209,7 +209,7 @@ nav h2{
  /* layout section */
  
  .layout{
-    padding-bottom: 50px; /*ata lagle rakbo*/
+    padding-bottom: 50px; 
     padding-top: 100px;
     background-color: #230E3D;
      /* background-color: #412567;  */
@@ -225,9 +225,6 @@ nav h2{
     background-color: #19073274;
     border-radius: 20px;
     padding: 30px;
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
-    /* border: 1px solid #a97527; */
  }
  .audio{
     grid-area: audio;
@@ -290,7 +287,6 @@ iframe{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    /* gap: 20px; */
     grid-template-columns: repeat(3,1fr);
 }
 .card{
@@ -418,6 +414,7 @@ footer p{
 
 
  /* mobile responsive */
+
  @media screen  and (max-width:576px){
     .menu,.btn-primary{
         visibility: hidden;
@@ -458,7 +455,7 @@ footer p{
         position: absolute;
         padding: 10px 15px; 
          transform: translateX(35px); 
-        /* transform: translateY(-15px); */
+        
     }
    
      .layout-container{
@@ -479,16 +476,13 @@ footer p{
             
         }
         .card{
-            
-            /* min-width: 350px; */
             margin: 0 auto;
         }
 
         .host-container{
             flex-direction: column;
             justify-content: center;
-            align-items: center;
-            
+            align-items: center;    
         }
         .name{
             text-align: center;
@@ -516,33 +510,25 @@ footer p{
             justify-content: center;
         }
         .btn-2{
-           margin-top: 10px;
-           
+           margin-top: 10px; 
         }
-         /* .card.iframe{
-            width: 100%;
-            
-        } */
-        /* footer{
-             background-size: contain; 
-        } */
+    
        .foot{
         background-repeat: no-repeat;
         /* padding: 30px 0px; */
         background: url(Images/Image\ 2.png);
         background-position: center;
-        background-size:100% 100%;
-
-        
+        background-size:100% 100%;      
        }
+
        .footer-a{
         gap: 8px;
         display: grid;
         justify-content: center;
         align-items: center;
         grid-template-columns: repeat(2,1fr);
-       
        }
+
  }
 
  
